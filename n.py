@@ -28,7 +28,7 @@ df=pd.read_csv(url)
 st.write("**Datos generales**")
 st.dataframe(df)
 
-st.dataframe(tpg_df[(df["TIPO_GESTION"]==PÚBLICO)])
+#st.dataframe(tpg_df[(df["TIPO_GESTION"]==PÚBLICO)])
 
            
            
