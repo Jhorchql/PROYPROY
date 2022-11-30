@@ -24,7 +24,7 @@ st.map(file4)
 
 url="https://raw.githubusercontent.com/DiegoHuaman10/Proyecto-Prograavanzada/main/LicenciamientoInstitucional_7_2.csv"
 filename="LicenciamientoInstitucional_7_2.csv"
-df=pd.read_csv("LicenciamientoInstitucional_7_2.csv")
+df=pd.read_csv(filename)
 st.write("**Datos generales**")
 st.dataframe(df)
 
